@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "I:\\C# Rider projects\\CW3\\WebApplication\\WebApplication\\WebApplication.csproj",
-    "projectName": "WebApplication",
-    "projectPath": "I:\\C# Rider projects\\CW3\\WebApplication\\WebApplication\\WebApplication.csproj",
-    "outputPath": "I:\\C# Rider projects\\CW3\\WebApplication\\WebApplication\\obj\\",
+    "projectUniqueName": "I:\\C# Rider projects\\API Web\\API\\API.csproj",
+    "projectName": "API",
+    "projectPath": "I:\\C# Rider projects\\API Web\\API\\API.csproj",
+    "outputPath": "I:\\C# Rider projects\\API Web\\API\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -29,6 +29,12 @@
   },
   "frameworks": {
     "netcoreapp3.1": {
+      "dependencies": {
+        "System.Data.SqlClient": {
+          "target": "Package",
+          "version": "[4.8.1, )"
+        }
+      },
       "imports": [
         "net461",
         "net462",

@@ -7,16 +7,19 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/WebApplication/Controllers/StudentsController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApplication/Startup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApplication/Models/Student.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApplication/Student.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApplication/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApplication/DAL/IDbService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApplication/DAL/MockDbService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApplication/WeatherForecast.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication/Controllers/WeatherForecastController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApplication/Models/Student.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApplication/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApplication/WeatherForecast.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApplication/DAL/MockDbService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApplication/DAL/IDbService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApplication/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApplication/Student.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -33,6 +36,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1ZnHP7itk52BPmLsAhH1s0ppfIl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -41,8 +45,9 @@
   <component name="PropertiesComponent">
     <property name="Rider.SolutionExplorerActivator" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.3" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.WebApplication">
     <configuration name="WebApplication" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
@@ -88,6 +93,8 @@
       <updated>1585467920667</updated>
       <workItem from="1585467930521" duration="2028000" />
       <workItem from="1585478627924" duration="11460000" />
+      <workItem from="1586427235569" duration="179000" />
+      <workItem from="1586428030797" duration="248000" />
     </task>
     <servers />
   </component>
@@ -96,6 +103,19 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state width="1629" height="201" key="GridCell.Tab.0.bottom" timestamp="1585500802570">
       <screen x="0" y="0" width="1680" height="1050" />
@@ -113,5 +133,17 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1629" height="201" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1585500802570" />
+    <state x="270" y="234" key="Rider.ProjectTemplateDialog.Size" timestamp="1586428243880">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="270" y="234" key="Rider.ProjectTemplateDialog.Size/0.0.1680.1050@0.0.1680.1050" timestamp="1586428243880" />
+    <state x="262" y="83" key="SettingsEditor" timestamp="1586428148878">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="262" y="83" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1586428148878" />
+    <state x="574" y="424" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586428053729">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="574" y="424" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1050@0.0.1680.1050" timestamp="1586428053729" />
   </component>
 </project>

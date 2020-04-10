@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "I:\\C# Rider projects\\WebApplication\\WebApplication\\WebApplication.csproj",
+      "projectUniqueName": "I:\\C# Rider projects\\CW3\\WebApplication\\WebApplication\\WebApplication.csproj",
       "projectName": "WebApplication",
-      "projectPath": "I:\\C# Rider projects\\WebApplication\\WebApplication\\WebApplication.csproj",
+      "projectPath": "I:\\C# Rider projects\\CW3\\WebApplication\\WebApplication\\WebApplication.csproj",
       "packagesPath": "C:\\Users\\Daniella\\.nuget\\packages\\",
-      "outputPath": "I:\\C# Rider projects\\WebApplication\\WebApplication\\obj\\",
+      "outputPath": "I:\\C# Rider projects\\CW3\\WebApplication\\WebApplication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
