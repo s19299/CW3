@@ -1,40 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="822f53ef-ec66-4197-8597-b953291013bb" name="Default Changelist" comment="" />
+    <list default="true" id="822f53ef-ec66-4197-8597-b953291013bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.API Web/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/Controllers/EnrollmentController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/DTOs/EnrollRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/DTOs/EnrollResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/Models/Enrollment.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.API Web/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.API Web/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.API Web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.API Web/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Controllers/StudentsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/StudentsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/DAL/MockDbService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/DAL/MockDbService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Models/Student.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Models/Student.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/obj/API.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/API.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/obj/API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/API.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/obj/Debug/netcoreapp3.1/API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/Debug/netcoreapp3.1/API.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/obj/Debug/netcoreapp3.1/API.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/Debug/netcoreapp3.1/API.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/project.packagespec.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/s19299/CW3.git" />
+      </set>
+    </option>
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/API/Models/Student.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/DAL/MockDbService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/DAL/IDbService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/API/Models/Student.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/API/DTOs/EnrollRequest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/API/DTOs/EnrollResponse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/API/Controllers/EnrollmentController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/API/Models/Enrollment.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/Controllers/StudentsController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/API/API.csproj" />
-        <option value="$PROJECT_DIR$/API/Models/Student.cs" />
         <option value="$PROJECT_DIR$/API/DAL/IDbService.cs" />
         <option value="$PROJECT_DIR$/API/DAL/MockDbService.cs" />
+        <option value="$PROJECT_DIR$/API/Models/EnrollResponse.cs" />
+        <option value="$PROJECT_DIR$/API/Models/EnrollRequest.cs" />
+        <option value="$PROJECT_DIR$/API/Controllers/EnrollementController.cs" />
         <option value="$PROJECT_DIR$/API/Controllers/StudentsController.cs" />
+        <option value="$PROJECT_DIR$/API/Models/Student.cs" />
+        <option value="$PROJECT_DIR$/API/Models/Enrollment.cs" />
+        <option value="$PROJECT_DIR$/API/Controllers/EnrollmentController.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1aIhWaPhCWf98fzIE8f8TrsPVQ3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Rider.SolutionExplorerActivator" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TWShift.3" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.API">
     <configuration name="API" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
@@ -80,6 +120,8 @@
       <updated>1586429047926</updated>
       <workItem from="1586429049157" duration="1314000" />
       <workItem from="1586527503710" duration="503000" />
+      <workItem from="1586719399258" duration="4090000" />
+      <workItem from="1586769184512" duration="5352000" />
     </task>
     <servers />
   </component>
@@ -88,6 +130,19 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state width="1629" height="273" key="GridCell.Tab.0.bottom" timestamp="1586430425708">
       <screen x="0" y="0" width="1680" height="1050" />
@@ -105,5 +160,17 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1629" height="273" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1586430425708" />
+    <state x="262" y="83" key="SettingsEditor" timestamp="1586721900972">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="262" y="83" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1586721900972" />
+    <state x="574" y="424" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586721509314">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="574" y="424" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1050@0.0.1680.1050" timestamp="1586721509314" />
+    <state x="541" y="424" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1586721979913">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="541" y="424" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1586721979913" />
   </component>
 </project>

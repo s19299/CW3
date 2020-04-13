@@ -2,21 +2,27 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\Daniella\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Daniella\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_API Web.-1265112845.00" t="ExcludeRecursive" />
-    <e p="I:\C# Rider projects\API Web" t="IncludeFlat">
+    <e p="C:\Users\Daniella\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_API Web.-1978398250.00" t="ExcludeRecursive" />
+    <e p="I:\C# Rider projects\CW3\API Web" t="IncludeFlat">
       <e p="API" t="IncludeRecursive">
         <e p="API.csproj" t="IncludeRecursive" />
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
+          <e p="EnrollmentController.cs" t="Include" />
           <e p="StudentsController.cs" t="Include" />
         </e>
         <e p="DAL" t="Include">
           <e p="IDbService.cs" t="Include" />
           <e p="MockDbService.cs" t="Include" />
         </e>
+        <e p="DTOs" t="Include">
+          <e p="EnrollRequest.cs" t="Include" />
+          <e p="EnrollResponse.cs" t="Include" />
+        </e>
         <e p="Models" t="Include">
+          <e p="Enrollment.cs" t="Include" />
           <e p="Student.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">

@@ -57,6 +57,7 @@ namespace API.Controllers
                 com.Connection = client;
                 com.CommandText =
                     "select * from Student join Enrollment on Student.IdEnrollment = Enrollment.IdEnrollment where indexNumber = @index";
+                com.Parameters.AddWithValue("index", index);
 
                 client.Open();
                 var sqlReader = com.ExecuteReader();
@@ -64,11 +65,11 @@ namespace API.Controllers
                 while (sqlReader.Read())
                 {
                     {
-                        var student = new Student(sqlReader["firstName"].ToString(), sqlReader["lastName"].ToString(),
-                            sqlReader["indexNumber"].ToString(),
-                            DateTime.Parse(sqlReader["birthDate"].ToString()).ToShortDateString(),
-                            sqlReader["course"].ToString(),
-                            int.Parse(sqlReader["semester"].ToString()));
+                        var student = new Student(sqlReader["FirstName"].ToString(), sqlReader["LastName"].ToString(),
+                            sqlReader["IndexNumber"].ToString(),
+                            DateTime.Parse(sqlReader["BirthDate"].ToString()),
+                            sqlReader["Name"].ToString(),
+                            int.Parse(sqlReader["Semester"].ToString()));
 
                         students.Add(student);
                     }

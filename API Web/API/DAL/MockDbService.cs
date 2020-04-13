@@ -35,7 +35,7 @@ namespace API.DAL
                 {
                     var student = new Student(reader["firstName"].ToString(), reader["lastName"].ToString(),
                         reader["indexNumber"].ToString(),
-                        DateTime.Parse(reader["birthDate"].ToString()).ToShortDateString(), reader["course"].ToString(),
+                        DateTime.Parse(reader["birthDate"].ToString()), reader["course"].ToString(),
                         int.Parse(reader["semester"].ToString()));
 
                     students.Add(student);
@@ -60,7 +60,7 @@ namespace API.DAL
                 {
                     var student = new Student(reader["firstName"].ToString(), reader["lastName"].ToString(),
                         reader["indexNumber"].ToString(),
-                        DateTime.Parse(reader["birthDate"].ToString()).ToShortDateString(), reader["course"].ToString(),
+                        DateTime.Parse(reader["birthDate"].ToString()), reader["course"].ToString(),
                         int.Parse(reader["semester"].ToString()));
 
                     return student;

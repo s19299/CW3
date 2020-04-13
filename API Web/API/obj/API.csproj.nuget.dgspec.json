@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "I:\\C# Rider projects\\API Web\\API\\API.csproj": {}
+    "I:\\C# Rider projects\\CW3\\API Web\\API\\API.csproj": {}
   },
   "projects": {
-    "I:\\C# Rider projects\\API Web\\API\\API.csproj": {
+    "I:\\C# Rider projects\\CW3\\API Web\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\C# Rider projects\\API Web\\API\\API.csproj",
+        "projectUniqueName": "I:\\C# Rider projects\\CW3\\API Web\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "I:\\C# Rider projects\\API Web\\API\\API.csproj",
+        "projectPath": "I:\\C# Rider projects\\CW3\\API Web\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Daniella\\.nuget\\packages\\",
-        "outputPath": "I:\\C# Rider projects\\API Web\\API\\obj\\",
+        "outputPath": "I:\\C# Rider projects\\CW3\\API Web\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
