@@ -1,23 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="822f53ef-ec66-4197-8597-b953291013bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.API Web/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/Controllers/EnrollmentController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/DTOs/EnrollRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/DTOs/EnrollResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/Models/Enrollment.cs" afterDir="false" />
+    <list default="true" id="822f53ef-ec66-4197-8597-b953291013bb" name="Default Changelist" comment="w toku">
+      <change afterPath="$PROJECT_DIR$/API/Services/IStudentDbService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/Services/SQLserverDbService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.API Web/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.API Web/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.API Web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.API Web/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Controllers/StudentsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/StudentsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/DAL/MockDbService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/DAL/MockDbService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Models/Student.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Models/Student.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/obj/API.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/API.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/obj/API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/API.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/obj/Debug/netcoreapp3.1/API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/Debug/netcoreapp3.1/API.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/obj/Debug/netcoreapp3.1/API.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/Debug/netcoreapp3.1/API.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/API/API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Controllers/EnrollmentController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/EnrollmentController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/DTOs/EnrollResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/DTOs/EnrollResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Startup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,13 +28,16 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/API/Models/Student.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/API/Services/IStudentDbService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/DAL/MockDbService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/DAL/IDbService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/DTOs/EnrollRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/DTOs/EnrollResponse.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/Controllers/EnrollmentController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/API/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/Models/Enrollment.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/Controllers/StudentsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/API/Services/SQLserverDbService.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -57,6 +52,12 @@
         <option value="$PROJECT_DIR$/API/Models/Student.cs" />
         <option value="$PROJECT_DIR$/API/Models/Enrollment.cs" />
         <option value="$PROJECT_DIR$/API/Controllers/EnrollmentController.cs" />
+        <option value="$PROJECT_DIR$/API/SQL_method.cs" />
+        <option value="$PROJECT_DIR$/API/Services/ISrudentDbService.cs" />
+        <option value="$PROJECT_DIR$/API/Startup.cs" />
+        <option value="$PROJECT_DIR$/API/Services/IStudentDbService.cs" />
+        <option value="$PROJECT_DIR$/API/DTOs/EnrollResponse.cs" />
+        <option value="$PROJECT_DIR$/API/Services/SQLserverDbService.cs" />
       </list>
     </option>
   </component>
@@ -121,8 +122,16 @@
       <workItem from="1586429049157" duration="1314000" />
       <workItem from="1586527503710" duration="503000" />
       <workItem from="1586719399258" duration="4090000" />
-      <workItem from="1586769184512" duration="5352000" />
+      <workItem from="1586769184512" duration="11198000" />
     </task>
+    <task id="LOCAL-00001" summary="w toku">
+      <created>1586774661197</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586774661197</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +151,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="w toku" />
+    <option name="LAST_COMMIT_MESSAGE" value="w toku" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1629" height="273" key="GridCell.Tab.0.bottom" timestamp="1586430425708">

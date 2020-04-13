@@ -42,13 +42,8 @@ namespace API.Controllers
                     command.CommandText =
                         "select IdStudy from Studies join Enrollment on Studies.IdStudy = Enrollment.IdStudy where Semester = 1 and Name = @course";
                     command.Parameters.AddWithValue("course", requestStudent.course);
+                    
                     enrollment = new Enrollment(idEnrollment, idStudies, requestStudent.course, 1);
-                    if (!reader.Read())
-                    {
-                        command.CommandText = "select count(IdEnrollment) from Enrollment ";
-                        
-                        command.CommandText = "insert into Enrollment values (@idenroll, 1, @idstudy, CURRENT_DATE)";
-                    }
                     
 
 
