@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="822f53ef-ec66-4197-8597-b953291013bb" name="Default Changelist" comment="w toku">
-      <change afterPath="$PROJECT_DIR$/API/Services/IStudentDbService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/Services/SQLserverDbService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.API Web/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.API Web/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.API Web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.API Web/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/API/API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Controllers/EnrollmentController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/EnrollmentController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/DTOs/EnrollResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/DTOs/EnrollResponse.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Startup.cs" afterDir="false" />
-    </list>
+    <list default="true" id="822f53ef-ec66-4197-8597-b953291013bb" name="Default Changelist" comment="w toku" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +9,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="hiddenUrls">
@@ -122,7 +114,7 @@
       <workItem from="1586429049157" duration="1314000" />
       <workItem from="1586527503710" duration="503000" />
       <workItem from="1586719399258" duration="4090000" />
-      <workItem from="1586769184512" duration="11198000" />
+      <workItem from="1586769184512" duration="11954000" />
     </task>
     <task id="LOCAL-00001" summary="w toku">
       <created>1586774661197</created>
@@ -131,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586774661197</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="w toku">
+      <created>1586796076417</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586796076417</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,10 +176,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="262" y="83" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1586721900972" />
-    <state x="574" y="424" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586721509314">
+    <state x="574" y="424" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587050131504">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="574" y="424" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1050@0.0.1680.1050" timestamp="1586721509314" />
+    <state x="574" y="424" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1050@0.0.1680.1050" timestamp="1587050131504" />
     <state x="541" y="424" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1586721979913">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
