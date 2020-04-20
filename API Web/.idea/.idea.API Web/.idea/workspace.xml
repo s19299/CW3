@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="822f53ef-ec66-4197-8597-b953291013bb" name="Default Changelist" comment="w toku">
-      <change afterPath="$PROJECT_DIR$/API/DTOs/Requests/PromoteRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/Middleware/LoggingMiddleware.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/SQL/promoteStudents.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.API Web/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.API Web/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.API Web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.API Web/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="822f53ef-ec66-4197-8597-b953291013bb" name="Default Changelist" comment="aktualizacja do cwiczen nr 6 z cwiczen 5">
+      <change afterPath="$PROJECT_DIR$/API/Middleware/ErrorDetails.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/Middleware/ExceptionMiddleware.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/API/API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/DAL/IDbService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Services/IDbService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/DAL/MockDbService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Services/MockDbService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/DTOs/EnrollRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/DTOs/Requests/EnrollRequest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/DTOs/EnrollResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/DTOs/Responses/EnrollResponse.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Services/SQLserverDbService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Services/SQLserverDbService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Startup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/obj/API.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/API.csproj.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/obj/API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/API.csproj.nuget.dgspec.json" afterDir="false" />
@@ -41,6 +33,8 @@
     <setting file="file://$PROJECT_DIR$/API/Services/IStudentDbService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/Middleware/LoggingMiddleware.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/DTOs/Requests/PromoteRequest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/API/Middleware/ExceptionMiddleware.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/API/Middleware/ErrorDetails.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/Services/MockDbService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/Services/IDbService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/DTOs/Requests/EnrollRequest.cs" root0="FORCE_HIGHLIGHTING" />
@@ -74,8 +68,10 @@
         <option value="$PROJECT_DIR$/API/SQL_method/promoteStudents.sql" />
         <option value="$PROJECT_DIR$/API/Services/SQLserverDbService.cs" />
         <option value="$PROJECT_DIR$/API/Services/IStudentDbService.cs" />
-        <option value="$PROJECT_DIR$/API/Startup.cs" />
         <option value="$PROJECT_DIR$/API/Middleware/LoggingMiddleware.cs" />
+        <option value="$PROJECT_DIR$/API/Middleware/ErrorDetails.cs" />
+        <option value="$PROJECT_DIR$/API/Middleware/ExceptionMiddleware.cs" />
+        <option value="$PROJECT_DIR$/API/Startup.cs" />
       </list>
     </option>
   </component>
@@ -141,7 +137,7 @@
       <workItem from="1586719399258" duration="4090000" />
       <workItem from="1586769184512" duration="11954000" />
       <workItem from="1587050053184" duration="287000" />
-      <workItem from="1587324156755" duration="9482000" />
+      <workItem from="1587324156755" duration="10511000" />
     </task>
     <task id="LOCAL-00001" summary="w toku">
       <created>1586774661197</created>
@@ -164,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587050338638</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="aktualizacja do cwiczen nr 6 z cwiczen 5">
+      <created>1587372142990</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587372142990</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +190,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="w toku" />
-    <option name="LAST_COMMIT_MESSAGE" value="w toku" />
+    <MESSAGE value="aktualizacja do cwiczen nr 6 z cwiczen 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="aktualizacja do cwiczen nr 6 z cwiczen 5" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1629" height="273" key="GridCell.Tab.0.bottom" timestamp="1586430425708">

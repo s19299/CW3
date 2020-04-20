@@ -23,6 +23,8 @@
           </e>
         </e>
         <e p="Middleware" t="Include">
+          <e p="ErrorDetails.cs" t="Include" />
+          <e p="ExceptionMiddleware.cs" t="Include" />
           <e p="LoggingMiddleware.cs" t="Include" />
         </e>
         <e p="Models" t="Include">

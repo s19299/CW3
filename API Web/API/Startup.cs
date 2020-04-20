@@ -43,6 +43,7 @@ namespace API
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseMiddleware<ExceptionMiddleware>();
             app.UseMiddleware<LoggingMiddleware>();
             
             app.UseWhen(context => context.Request.Path.ToString().Contains("secret"), app =>
@@ -70,6 +71,7 @@ namespace API
                     await next();
                 });
             });
+
 
             app.UseHttpsRedirection();
 
