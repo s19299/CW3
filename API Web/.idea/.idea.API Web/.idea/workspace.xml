@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="822f53ef-ec66-4197-8597-b953291013bb" name="Default Changelist" comment="w toku" />
+    <list default="true" id="822f53ef-ec66-4197-8597-b953291013bb" name="Default Changelist" comment="w toku">
+      <change afterPath="$PROJECT_DIR$/API/DTOs/Requests/PromoteRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/Middleware/LoggingMiddleware.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/SQL/promoteStudents.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.API Web/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.API Web/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.API Web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.API Web/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/API/API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/DAL/IDbService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Services/IDbService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/DAL/MockDbService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Services/MockDbService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/DTOs/EnrollRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/DTOs/Requests/EnrollRequest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/DTOs/EnrollResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/DTOs/Responses/EnrollResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Services/SQLserverDbService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Services/SQLserverDbService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/obj/API.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/API.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/obj/API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/API.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/obj/Debug/netcoreapp3.1/API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/Debug/netcoreapp3.1/API.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/obj/Debug/netcoreapp3.1/API.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/Debug/netcoreapp3.1/API.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/project.packagespec.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,16 +38,19 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/API/Models/Student.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/Services/IStudentDbService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/API/DAL/MockDbService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/API/DAL/IDbService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/API/DTOs/EnrollRequest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/API/DTOs/EnrollResponse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/API/Middleware/LoggingMiddleware.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/API/DTOs/Requests/PromoteRequest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/API/Services/MockDbService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/API/Services/IDbService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/API/DTOs/Requests/EnrollRequest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/API/DTOs/Responses/EnrollResponse.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/Controllers/EnrollmentController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/API/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/Models/Enrollment.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/Controllers/StudentsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/API/Models/Student.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/API/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/API/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/Services/SQLserverDbService.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -46,10 +68,14 @@
         <option value="$PROJECT_DIR$/API/Controllers/EnrollmentController.cs" />
         <option value="$PROJECT_DIR$/API/SQL_method.cs" />
         <option value="$PROJECT_DIR$/API/Services/ISrudentDbService.cs" />
-        <option value="$PROJECT_DIR$/API/Startup.cs" />
-        <option value="$PROJECT_DIR$/API/Services/IStudentDbService.cs" />
         <option value="$PROJECT_DIR$/API/DTOs/EnrollResponse.cs" />
+        <option value="$PROJECT_DIR$/API/DTOs/Requests/PromoteRequest.cs" />
+        <option value="$PROJECT_DIR$/API/SQL_method/Promote.sql" />
+        <option value="$PROJECT_DIR$/API/SQL_method/promoteStudents.sql" />
         <option value="$PROJECT_DIR$/API/Services/SQLserverDbService.cs" />
+        <option value="$PROJECT_DIR$/API/Services/IStudentDbService.cs" />
+        <option value="$PROJECT_DIR$/API/Startup.cs" />
+        <option value="$PROJECT_DIR$/API/Middleware/LoggingMiddleware.cs" />
       </list>
     </option>
   </component>
@@ -64,7 +90,6 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Rider.SolutionExplorerActivator" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TWShift.3" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -115,6 +140,8 @@
       <workItem from="1586527503710" duration="503000" />
       <workItem from="1586719399258" duration="4090000" />
       <workItem from="1586769184512" duration="11954000" />
+      <workItem from="1587050053184" duration="287000" />
+      <workItem from="1587324156755" duration="9482000" />
     </task>
     <task id="LOCAL-00001" summary="w toku">
       <created>1586774661197</created>
@@ -130,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586796076417</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="w toku">
+      <created>1587050338638</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587050338638</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

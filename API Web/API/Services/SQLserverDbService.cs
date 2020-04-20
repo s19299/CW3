@@ -153,18 +153,9 @@ namespace API.Services
 
 
         }
-
         public EnrollResponse promoteStudents(string course, int semester)
         {
-            using (var connection = new SqlConnection("Data Source=db-mssql;Initial Catalog=s19299;Integrated Security=True"))
-            using (var command = new SqlCommand())
-            {
-                
-            }
-            {
-                
-            }
-            return new EnrollResponse();
+            throw new NotImplementedException();
         }
     }
 }

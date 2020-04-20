@@ -13,13 +13,17 @@
           <e p="EnrollmentController.cs" t="Include" />
           <e p="StudentsController.cs" t="Include" />
         </e>
-        <e p="DAL" t="Include">
-          <e p="IDbService.cs" t="Include" />
-          <e p="MockDbService.cs" t="Include" />
-        </e>
         <e p="DTOs" t="Include">
-          <e p="EnrollRequest.cs" t="Include" />
-          <e p="EnrollResponse.cs" t="Include" />
+          <e p="Requests" t="Include">
+            <e p="EnrollRequest.cs" t="Include" />
+            <e p="PromoteRequest.cs" t="Include" />
+          </e>
+          <e p="Responses" t="Include">
+            <e p="EnrollResponse.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Middleware" t="Include">
+          <e p="LoggingMiddleware.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
           <e p="Enrollment.cs" t="Include" />
@@ -37,10 +41,14 @@
           <e p="launchSettings.json" t="Include" />
         </e>
         <e p="Services" t="Include">
+          <e p="IDbService.cs" t="Include" />
           <e p="IStudentDbService.cs" t="Include" />
+          <e p="MockDbService.cs" t="Include" />
           <e p="SQLserverDbService.cs" t="Include" />
         </e>
-        <e p="SQL_method" t="Include" />
+        <e p="SQL" t="Include">
+          <e p="promoteStudents.sql" t="Include" />
+        </e>
         <e p="Startup.cs" t="Include" />
         <e p="WeatherForecast.cs" t="Include" />
       </e>
