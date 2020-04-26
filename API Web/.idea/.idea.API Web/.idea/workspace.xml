@@ -1,22 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="822f53ef-ec66-4197-8597-b953291013bb" name="Default Changelist" comment="aktualizacja do cwiczen nr 6 z cwiczen 5">
-      <change afterPath="$PROJECT_DIR$/API/DTOs/Requests/LoginRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/Handlers/BasicAuthentication.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.API Web/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.API Web/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="822f53ef-ec66-4197-8597-b953291013bb" name="Default Changelist" comment="laboratorium nr 7 aktualizacja">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.API Web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.API Web/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/API/API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Controllers/EnrollmentController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/EnrollmentController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/Controllers/StudentsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/StudentsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Services/SQLserverDbService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Services/SQLserverDbService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/obj/API.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/API.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/obj/API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/API.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/obj/Debug/netcoreapp3.1/API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/Debug/netcoreapp3.1/API.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/obj/Debug/netcoreapp3.1/API.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/Debug/netcoreapp3.1/API.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +26,7 @@
     <setting file="file://$PROJECT_DIR$/API/Middleware/LoggingMiddleware.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/DTOs/Requests/PromoteRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/Middleware/ExceptionMiddleware.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/API/obj/project.assets.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/Middleware/ErrorDetails.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/Services/MockDbService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/Services/IDbService.cs" root0="FORCE_HIGHLIGHTING" />
@@ -80,8 +68,8 @@
         <option value="$PROJECT_DIR$/API/Controllers/EnrollmentController.cs" />
         <option value="$PROJECT_DIR$/API/DTOs/Requests/LoginRequest.cs" />
         <option value="$PROJECT_DIR$/API/Handlers/BasicAuthentication.cs" />
-        <option value="$PROJECT_DIR$/API/Controllers/StudentsController.cs" />
         <option value="$PROJECT_DIR$/API/Startup.cs" />
+        <option value="$PROJECT_DIR$/API/Controllers/StudentsController.cs" />
       </list>
     </option>
   </component>
@@ -149,7 +137,7 @@
       <workItem from="1587050053184" duration="287000" />
       <workItem from="1587324156755" duration="10511000" />
       <workItem from="1587889531381" duration="4235000" />
-      <workItem from="1587899530469" duration="6031000" />
+      <workItem from="1587899530469" duration="6625000" />
     </task>
     <task id="LOCAL-00001" summary="w toku">
       <created>1586774661197</created>
@@ -179,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587372142990</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="laboratorium nr 7 aktualizacja">
+      <created>1587906274821</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1587906274821</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +198,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="w toku" />
     <MESSAGE value="aktualizacja do cwiczen nr 6 z cwiczen 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="aktualizacja do cwiczen nr 6 z cwiczen 5" />
+    <MESSAGE value="laboratorium nr 7 aktualizacja" />
+    <option name="LAST_COMMIT_MESSAGE" value="laboratorium nr 7 aktualizacja" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1629" height="273" key="GridCell.Tab.0.bottom" timestamp="1586430425708">
