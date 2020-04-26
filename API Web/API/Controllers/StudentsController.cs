@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Text;
 using API.DAL;
 using API.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
 
 namespace API.Controllers
 {
@@ -13,7 +15,7 @@ namespace API.Controllers
     public class StudentsController : ControllerBase
     {
         private readonly IDbService idbService;
-
+        
 
         public StudentsController(IDbService idbService)
         {
@@ -118,6 +120,13 @@ namespace API.Controllers
         {
             return Ok(idbService.getStudents());
         }
-        
+
+        public IActionResult login(LoginRequest logRequest)
+        {
+           // var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["SecretPassword"]));
+            
+            return Ok();
+        }
+
     }
 }

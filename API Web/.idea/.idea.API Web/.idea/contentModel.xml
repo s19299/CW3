@@ -16,11 +16,15 @@
         <e p="DTOs" t="Include">
           <e p="Requests" t="Include">
             <e p="EnrollRequest.cs" t="Include" />
+            <e p="LoginRequest.cs" t="Include" />
             <e p="PromoteRequest.cs" t="Include" />
           </e>
           <e p="Responses" t="Include">
             <e p="EnrollResponse.cs" t="Include" />
           </e>
+        </e>
+        <e p="Handlers" t="Include">
+          <e p="BasicAuthentication.cs" t="Include" />
         </e>
         <e p="Middleware" t="Include">
           <e p="ErrorDetails.cs" t="Include" />

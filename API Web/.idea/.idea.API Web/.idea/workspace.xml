@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="822f53ef-ec66-4197-8597-b953291013bb" name="Default Changelist" comment="aktualizacja do cwiczen nr 6 z cwiczen 5">
-      <change afterPath="$PROJECT_DIR$/API/Middleware/ErrorDetails.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/Middleware/ExceptionMiddleware.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/DTOs/Requests/LoginRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/Handlers/BasicAuthentication.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.API Web/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.API Web/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.API Web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.API Web/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/API/API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Controllers/EnrollmentController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/EnrollmentController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Controllers/StudentsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/StudentsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Services/SQLserverDbService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Services/SQLserverDbService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Startup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/obj/API.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/API.csproj.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/obj/API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/API.csproj.nuget.dgspec.json" afterDir="false" />
@@ -44,7 +49,9 @@
     <setting file="file://$PROJECT_DIR$/API/Controllers/StudentsController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/Models/Student.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/API/Handlers/BasicAuthentication.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/API/DTOs/Requests/LoginRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/Services/SQLserverDbService.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -56,21 +63,24 @@
         <option value="$PROJECT_DIR$/API/Models/EnrollResponse.cs" />
         <option value="$PROJECT_DIR$/API/Models/EnrollRequest.cs" />
         <option value="$PROJECT_DIR$/API/Controllers/EnrollementController.cs" />
-        <option value="$PROJECT_DIR$/API/Controllers/StudentsController.cs" />
         <option value="$PROJECT_DIR$/API/Models/Student.cs" />
         <option value="$PROJECT_DIR$/API/Models/Enrollment.cs" />
-        <option value="$PROJECT_DIR$/API/Controllers/EnrollmentController.cs" />
         <option value="$PROJECT_DIR$/API/SQL_method.cs" />
         <option value="$PROJECT_DIR$/API/Services/ISrudentDbService.cs" />
         <option value="$PROJECT_DIR$/API/DTOs/EnrollResponse.cs" />
         <option value="$PROJECT_DIR$/API/DTOs/Requests/PromoteRequest.cs" />
         <option value="$PROJECT_DIR$/API/SQL_method/Promote.sql" />
         <option value="$PROJECT_DIR$/API/SQL_method/promoteStudents.sql" />
-        <option value="$PROJECT_DIR$/API/Services/SQLserverDbService.cs" />
         <option value="$PROJECT_DIR$/API/Services/IStudentDbService.cs" />
         <option value="$PROJECT_DIR$/API/Middleware/LoggingMiddleware.cs" />
         <option value="$PROJECT_DIR$/API/Middleware/ErrorDetails.cs" />
         <option value="$PROJECT_DIR$/API/Middleware/ExceptionMiddleware.cs" />
+        <option value="$PROJECT_DIR$/API/Handlers/BasicAuthetication.cs" />
+        <option value="$PROJECT_DIR$/API/Services/SQLserverDbService.cs" />
+        <option value="$PROJECT_DIR$/API/Controllers/EnrollmentController.cs" />
+        <option value="$PROJECT_DIR$/API/DTOs/Requests/LoginRequest.cs" />
+        <option value="$PROJECT_DIR$/API/Handlers/BasicAuthentication.cs" />
+        <option value="$PROJECT_DIR$/API/Controllers/StudentsController.cs" />
         <option value="$PROJECT_DIR$/API/Startup.cs" />
       </list>
     </option>
@@ -138,6 +148,8 @@
       <workItem from="1586769184512" duration="11954000" />
       <workItem from="1587050053184" duration="287000" />
       <workItem from="1587324156755" duration="10511000" />
+      <workItem from="1587889531381" duration="4235000" />
+      <workItem from="1587899530469" duration="6031000" />
     </task>
     <task id="LOCAL-00001" summary="w toku">
       <created>1586774661197</created>

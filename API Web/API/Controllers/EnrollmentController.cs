@@ -1,5 +1,6 @@
 ﻿using System.Data.SqlClient;
 using API.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
@@ -10,6 +11,7 @@ namespace API.Controllers
     public class EnrollmentsController : ControllerBase
     {
         [HttpPost]
+        [Authorize(Roles = "employee")]
         public IActionResult enrollStudent(EnrollRequest requestStudent)
         {Enrollment enrollment = null;  
 
