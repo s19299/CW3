@@ -6,7 +6,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Text;
 using API.DAL;
-using API.Models;
+using API.EntityModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
@@ -19,7 +19,7 @@ namespace API.Controllers
     {
         private readonly IDbService idbService;
         public IConfiguration configuration;
-        
+
         public StudentsController(IDbService idbService, IConfiguration configuration)
         {
             this.idbService = idbService;
@@ -29,7 +29,8 @@ namespace API.Controllers
         [HttpGet]
         public IActionResult getStudents()
         {
-            using (var client = new SqlConnection("Data Source=db-mssql;Initial Catalog=s19299;Integrated Security=True"))
+            using (var client =
+                new SqlConnection("Data Source=db-mssql;Initial Catalog=s19299;Integrated Security=True"))
             using (var com = new SqlCommand())
             {
 
@@ -119,31 +120,10 @@ namespace API.Controllers
 
             return Ok("Aktualizacja zakonczona");
         }
-        
+
         public IActionResult GetStudents(string orderBy)
         {
             return Ok(idbService.getStudents());
-        }
-
-        public IActionResult login(LoginRequest logRequest)
-        {
-            var claims = new[]
-            {
-                new Claim(ClaimTypes.Role, "admin"),
-            };
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["SecretPassword"]));
-            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
-
-            var token = new JwtSecurityToken 
-            {
-                issuer: "Gakko",
-                audience: "Students",
-                claims: claims,
-                expires: DateTime.Now.AddMinutes(15),
-                SigningCredentials: creds
-            };
-            
-            return Ok();
         }
 
     }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
+using API.EntityModels;
 using API.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -89,7 +90,7 @@ namespace API.Services
 
                 if (!reader.Read())
                 {
-                    throw new Exception("nie znaleziono studi: " + requestStudent.course);
+                    throw new Exception("nie znaleziono studii: " + requestStudent.course);
                 }
 
 
@@ -146,17 +147,76 @@ namespace API.Services
                 command.Parameters.AddWithValue("IdEnrollment", idEnrollment);
 
                 command.ExecuteNonQuery();
-                return new EnrollResponse()
+                return new EnrollResponse("Success!")
                     {idEnrollment = idEnrollment, semester = 1, idStudy = idStudies, start = startDate};
 
             }
 
 
         }
-        
-        public EnrollResponse promoteStudents(string course, int semester)
+
+        public void UpdateStudent(UpdateRequest updaterequest)
         {
-            throw new NotImplementedException();
+            var db = new s19299Context();
+            var student = db.Students.First(student1 => student1.StudentID == updaterequest.StudentID);
+            student.firstName = updaterequest.firstName;
+            student.lastName = updaterequest.lastName;
+            student.birthDate = updaterequest.birthDate;
+            student.IdEnrollment = updaterequest.enrollment;
+            db.SaveChanges();
+        }
+
+        public EnrollResponse promoteStudents(EnrollRequest enrollRequest)
+        {
+            {
+                var db = new s19299Context();
+                var studies = db.Courses.First(stud => stud.Name.Equals(enrollRequest.course));
+                var student = db.Students.First(s => s.indexNumber == enrollRequest.indexNumber);
+
+                if (studies.Equals(null))
+                {
+                    throw new Exception("No course as: " + enrollRequest.course);
+                }
+
+
+                var enrollment = db.Enrollment.First(enrollement =>
+                    enrollement.IdStudy == studies.IdStudy && enrollement.semester == 1);
+                var newStudent = new Student
+                {
+                    indexNumber = enrollRequest.indexNumber,
+                    firstName = enrollRequest.firstName,
+                    lastName = enrollRequest.lastName,
+                    birthDate = enrollRequest.birthDate
+                };
+
+
+                if (enrollment.Equals(null))
+                {
+                    throw new Exception("Enrollment as such doesn't exist");
+                }
+                else
+
+                {
+                    newStudent.course = enrollRequest.course;
+                    newStudent.indexNumber = enrollRequest.indexNumber;
+                    newStudent.enrollment = enrollment;
+                    newStudent.firstName = enrollRequest.firstName;
+                    newStudent.lastName = enrollRequest.lastName;
+                    newStudent.birthDate = enrollRequest.birthDate;
+                }
+
+                db.Add(newStudent);
+                db.SaveChanges();
+                
+                return new EnrollResponse("Success!")
+                {
+                    idEnrollment = enrollment.IdEnrollment,
+                    idStudy = enrollment.IdStudy,
+                    semester = enrollment.semester,
+                    start = enrollment.startDate
+                };
+
+            }
         }
     }
 }

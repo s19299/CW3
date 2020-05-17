@@ -70,6 +70,6 @@ begin
 	commit
 end
 
-execute EnrollStudent 's19828' , 'Arnold', 'Boczek', '11-05-1989', 1;
+execute enrollStudent 's19828' , 'Arnold', 'Boczek', '11-05-1989', 1;
 
 go

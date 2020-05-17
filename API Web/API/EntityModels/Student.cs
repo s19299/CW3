@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace API.Models
+namespace API.EntityModels
 {
     public class Student
         {
@@ -19,6 +19,10 @@ namespace API.Models
             public int semester { get; set; }
             
             public int IdEnrollment { get; set; }
+            
+            public string password { get; set; }
+            
+            public Enrollment enrollment { get; set; }
 
             public Student(int studentId, string firstName, string lastName, string indexNumber, DateTime birthDate, string course, int semester)
             {
@@ -50,6 +54,7 @@ namespace API.Models
                 this.course = enrollment.courseName;
                 this.semester = enrollment.semester;
                 this.IdEnrollment = enrollment.IdEnrollment;
+                this.enrollment = enrollment;
             }
 
             public Student()

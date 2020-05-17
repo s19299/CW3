@@ -1,4 +1,5 @@
 ﻿using System.Data.SqlClient;
+using API.EntityModels;
 using API.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;

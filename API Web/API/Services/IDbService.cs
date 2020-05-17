@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using API.EntityModels;
 using API.Models;
 
 namespace API.DAL

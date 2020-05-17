@@ -4,8 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using API.DAL;
+using API.EntityModels;
 using API.Handlers;
 using API.Middleware;
+using API.Models;
 using API.Services;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -49,6 +51,7 @@ namespace API
                 };
             });
 
+            services.AddDbContext<s19299Context>();
             services.AddControllers();
             services.AddSwaggerGen(config =>
             {

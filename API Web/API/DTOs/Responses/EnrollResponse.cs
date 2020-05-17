@@ -11,7 +11,13 @@ namespace API.Models
         public  int semester { get; set; }
         
         public DateTime start { get; set; }
-        
+
+        public EnrollResponse(String message)
+        {
+            Console.WriteLine(message);
+        }
         
     }
+    
+    
 }

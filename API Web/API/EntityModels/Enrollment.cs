@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace API.Models
+namespace API.EntityModels
 {
     public class Enrollment
     {
