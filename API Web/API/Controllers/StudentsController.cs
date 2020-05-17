@@ -7,6 +7,8 @@ using System.Security.Claims;
 using System.Text;
 using API.DAL;
 using API.EntityModels;
+using API.Models;
+using API.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
@@ -18,6 +20,7 @@ namespace API.Controllers
     public class StudentsController : ControllerBase
     {
         private readonly IDbService idbService;
+        private readonly SQLserverDbService sqlServer;
         public IConfiguration configuration;
 
         public StudentsController(IDbService idbService, IConfiguration configuration)
@@ -94,16 +97,18 @@ namespace API.Controllers
         }
 
         [HttpPut("{ID}")]
-        public IActionResult modifyStudent(int ID)
-        {
-
-            if (idbService.getStudents().ToList().Find(i => i.StudentID == ID) != null)
+        public IActionResult updateStudent([FromBody] UpdateRequest request, string ID)
             {
-                return Ok("Aktualizacja zakończona");
+                if (sqlServer.getStudent(ID) != null)
+                {
+                    sqlServer.UpdateStudent(request);
+                    return Ok("Update successfull");
+                }
+                else
+                {
+                    return NotFound("No student with that ID");
+                }
             }
-            else
-                return NotFound("Nie ma takiego studenta");
-        }
 
         [HttpDelete("{ID}")]
         public IActionResult deleteStudent(int ID)

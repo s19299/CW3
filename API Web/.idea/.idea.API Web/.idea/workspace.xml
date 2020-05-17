@@ -2,31 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="822f53ef-ec66-4197-8597-b953291013bb" name="Default Changelist" comment="laboratorium nr 7 aktualizacja">
-      <change afterPath="$PROJECT_DIR$/API/DTOs/Requests/UpdateRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/EntityModels/Course.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/EntityModels/s19299Context.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.API Web/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.API Web/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.API Web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.API Web/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/API/API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Controllers/EnrollmentController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/EnrollmentController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/Controllers/StudentsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/StudentsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/DTOs/Responses/EnrollResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/DTOs/Responses/EnrollResponse.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Models/Enrollment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/EntityModels/Enrollment.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Models/Student.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/EntityModels/Student.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/SQL/promoteStudents.sql" beforeDir="false" afterPath="$PROJECT_DIR$/API/SQL/promoteStudents.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Services/IDbService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Services/IDbService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Services/IStudentDbService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Services/IStudentDbService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Services/MockDbService.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/API/Services/SQLserverDbService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Services/SQLserverDbService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/obj/API.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/API.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/obj/API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/API.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/obj/API.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/API.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/obj/API.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/API.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/obj/Debug/netcoreapp3.1/API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/Debug/netcoreapp3.1/API.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/obj/Debug/netcoreapp3.1/API.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/Debug/netcoreapp3.1/API.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +27,13 @@
     <select />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="b4f56668355a8c555258d987537ac51036a24eee" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RESET_MODE" value="MIXED" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="GithubPullRequestsUISettings">
@@ -63,22 +48,21 @@
     <setting file="file://$PROJECT_DIR$/API/Middleware/LoggingMiddleware.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/Middleware/ExceptionMiddleware.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/obj/project.assets.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/API/DTOs/Requests/PromoteRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/Middleware/ErrorDetails.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/Services/IDbService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/DTOs/Requests/EnrollRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/DTOs/Responses/EnrollResponse.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/Controllers/EnrollmentController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/EntityModels/Enrollment.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/AppData/Local/Temp/SampleDbContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/API/Controllers/StudentsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/API/EntityModels/Student.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/EntityModels/s19299Context.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/API/Handlers/BasicAuthentication.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/DTOs/Requests/UpdateRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/EntityModels/Course.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/Startup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/API/DTOs/Requests/PromoteRequest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/API/Controllers/StudentsController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/API/EntityModels/Student.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/API/Handlers/BasicAuthentication.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/DTOs/Requests/LoginRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/Services/SQLserverDbService.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -115,7 +99,6 @@
         <option value="$PROJECT_DIR$/API/Services/MockDbService.cs" />
         <option value="$PROJECT_DIR$/API/EntityModels/Student.cs" />
         <option value="$PROJECT_DIR$/API/EntityModels/Enrollment.cs" />
-        <option value="$PROJECT_DIR$/API/Controllers/StudentsController.cs" />
         <option value="$PROJECT_DIR$/API/Services/IDbService.cs" />
         <option value="$PROJECT_DIR$/API/Controllers/EnrollmentController.cs" />
         <option value="$PROJECT_DIR$/API/DTOs/Requests/UpdateRequest.cs" />
@@ -124,6 +107,7 @@
         <option value="$PROJECT_DIR$/API/Services/IStudentDbService.cs" />
         <option value="$PROJECT_DIR$/API/DTOs/Responses/EnrollResponse.cs" />
         <option value="$PROJECT_DIR$/API/Services/SQLserverDbService.cs" />
+        <option value="$PROJECT_DIR$/API/Controllers/StudentsController.cs" />
       </list>
     </option>
   </component>
@@ -140,7 +124,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TWShift.3" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="RiderNuGetOptionsPageId" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.API">
     <configuration name="API" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
@@ -192,7 +176,8 @@
       <workItem from="1587324156755" duration="10511000" />
       <workItem from="1587889531381" duration="4235000" />
       <workItem from="1587899530469" duration="7668000" />
-      <workItem from="1589734594190" duration="8529000" />
+      <workItem from="1589734594190" duration="9300000" />
+      <workItem from="1589744322386" duration="320000" />
     </task>
     <task id="LOCAL-00001" summary="w toku">
       <created>1586774661197</created>
@@ -236,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587906739925</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="vpn nie umozliwil mi sprawdzenia informacji dot. tabel. Przy probie logowania do db-mssql wystepowal blad autentykacji">
+      <created>1589743548319</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1589743548319</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,13 +253,22 @@
     <MESSAGE value="w toku" />
     <MESSAGE value="aktualizacja do cwiczen nr 6 z cwiczen 5" />
     <MESSAGE value="laboratorium nr 7 aktualizacja" />
-    <option name="LAST_COMMIT_MESSAGE" value="laboratorium nr 7 aktualizacja" />
+    <MESSAGE value="vpn nie umozliwil mi sprawdzenia informacji dot. tabel. Przy probie logowania do db-mssql wystepowal blad autentykacji" />
+    <option name="LAST_COMMIT_MESSAGE" value="vpn nie umozliwil mi sprawdzenia informacji dot. tabel. Przy probie logowania do db-mssql wystepowal blad autentykacji" />
   </component>
   <component name="WindowStateProjectService">
     <state x="432" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589735494964">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="432" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1589735494964" />
+    <state x="476" y="313" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589743683509">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="476" y="313" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1589743683509" />
+    <state x="92" y="92" width="1496" height="866" key="DiffContextDialog" timestamp="1589744100202">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="92" y="92" width="1496" height="866" key="DiffContextDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1589744100202" />
     <state width="1629" height="273" key="GridCell.Tab.0.bottom" timestamp="1586430425708">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -284,14 +285,18 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1629" height="273" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1586430425708" />
-    <state x="262" y="83" key="SettingsEditor" timestamp="1589738484887">
+    <state x="262" y="83" key="SettingsEditor" timestamp="1589743702565">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="262" y="83" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1589738484887" />
-    <state x="574" y="424" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587050131504">
+    <state x="262" y="83" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1589743702565" />
+    <state x="683" y="427" key="VCS.ChangelistChooser" timestamp="1589743947832">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="574" y="424" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1050@0.0.1680.1050" timestamp="1587050131504" />
+    <state x="683" y="427" key="VCS.ChangelistChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1589743947832" />
+    <state x="574" y="424" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589743874069">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="574" y="424" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1050@0.0.1680.1050" timestamp="1589743874069" />
     <state x="541" y="424" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1586721979913">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
